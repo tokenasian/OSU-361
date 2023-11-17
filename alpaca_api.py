@@ -166,3 +166,7 @@ if __name__ == "__main__":
     secret_key_outer = SECRET_KEY
 
     wrapper_function(api_key_outer, secret_key_outer)
+
+# source: https://docs.alpaca.markets/reference/postorder
+# source: https://docs.alpaca.markets/reference/getallopenpositions
+# source: https://docs.alpaca.markets/reference/getallorders
