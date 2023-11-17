@@ -4,7 +4,7 @@ The README guidelines below contains instructions for programmatically requestin
 
 **Requesting Data**
 
-To programmatically request data from the Alpaca Microservice, you can use the provided Python functions in the `alpaca_trading.py` file. 
+To request data from the Alpaca Microservice, you can use the provided Python functions in the `alpaca_trading.py` file. 
 
 ```
 from alpaca_trading import place_order
