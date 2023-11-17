@@ -1,9 +1,7 @@
 import requests
 
-# Initialize Alpaca API URL
 BASE_URL = "https://paper-api.alpaca.markets/v2/"
 
-# Your API key and secret key
 API_KEY = ""
 SECRET_KEY = ""
 
@@ -30,7 +28,7 @@ def place_order(api_key, secret_key, symbol, quantity, side):  # buy or sell ord
     return response.json()
 
 
-def get_open_buy_orders(api_key, secret_key):
+def get_open_buy_orders(api_key, secret_key): # buy function
     url = BASE_URL + "orders"
 
     headers = {
@@ -48,7 +46,7 @@ def get_open_buy_orders(api_key, secret_key):
         return None
 
 
-def get_open_sell_orders(api_key, secret_key):
+def get_open_sell_orders(api_key, secret_key): # sell function
     url = BASE_URL + "orders"
     headers = {
         "APCA-API-KEY-ID": api_key,
@@ -65,7 +63,7 @@ def get_open_sell_orders(api_key, secret_key):
         return None
 
 
-def delete_order(api_key, secret_key, order_id):
+def delete_order(api_key, secret_key, order_id): # delete by id
     url = BASE_URL + f"orders/{order_id}"
     headers = {
         "APCA-API-KEY-ID": api_key,
