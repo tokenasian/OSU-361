@@ -1,4 +1,4 @@
-# Alpaca Trading Microservice Communication Contract
+# Alpaca Trading Microservice Communication
 
 The README guidelines below contains instructions for programmatically requesting and receiving data from the microservice. 
 
