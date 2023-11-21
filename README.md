@@ -34,3 +34,5 @@ result = get_account_positions(api_key, secret_key)
 print("Account Positions:")
 print(result)
 ```
+
+![UML](https://github.com/tokenasian/OSU-361-Assignment-9/assets/78766033/2c205fa1-c9c2-461b-9748-c7e09c834bb5)
